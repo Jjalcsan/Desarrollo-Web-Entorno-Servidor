@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+
+#div-principal{
+    min-height:100%;
+    position:relative;
+}
+
+/* PARTE DE CSS DE LA CABECERA */
+
+#div-cabecera{
+    display: flex;
+    flex-flow: row wrap;
+    height: 20%;
+}
+
+#div-titulo{
+    width: 40%;
+    color: rgba(255, 0, 0, 0.719);
+
+}
+
+#div-login{
+    text-align: right;
+    width: 60%;
+}
+
+#titulo,#subtitulo{
+    padding-left: 20px;
+}
+
+#div-login p{
+    padding-right: 20px;
+}
+
+/* PARTE DE CSS DEL FOOTER */
+
+#div-footer{
+    display: flex;
+    flex-flow: row wrap;
+    height: 25%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+}
+
+#div-localizacion{
+    padding-left: 20px;
+    width: 49%;
+    margin: 0px;
+}
+
+#div-enlaces{
+    width: 49%;
+    margin: 0px;
+}
+
+#div-enlaces img{
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#div-enlaces img:hover{
+    border-color: yellow;
+    transition: 0.5s ease-in-out;
+}
