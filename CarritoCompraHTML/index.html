@@ -2,7 +2,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Login</title>
-        <link rel="Stylesheet" href="CSS/cssGeneral.css" type="text/css">
+        <link rel="Stylesheet" href="CSS/cssHeader.css" type="text/css">
+        <link rel="Stylesheet" href="CSS/cssFooter.css" type="text/css">
+        <link rel="Stylesheet" href="CSS/cssIndex.css" type="text/css">
     </head>
     <body>
         <div id="div-principal">
@@ -15,7 +17,7 @@
                     <h3 id="titulo">CARRITO DE LA COMPRA</h3>
                     <p id="subtitulo">Time to buy</p>
                 </div>
-
+                <!--Añadir JSP si el usuario no se ha logado aparece esto, si no, aparece el usuario logado-->
                 <div id="div-login">
                     <p>Es necesario iniciar sesion para moverse por la página*</p>
                     <p><a href="index.html">LOGIN</a></p>
@@ -24,8 +26,16 @@
             </div>
 
             <!-- CONTENIDO HTML DEL CUERPO DE LA PAGINA -->
-
+            <!--Añadir JSP para que si falla el logeo muestre un mensaje de "error de login"-->
+            
             <div id="div-contenido">
+                <form>
+                    <p class="input" id="nombre">Introduce tu nombre de usuario*</p>
+                    <input id="usuario">
+                    <p class="input">Introduce tu contraseña*</p>
+                    <input id="contra" type="password"><br>
+                    <button type="submit" id="boton">Iniciar sesion</button>
+                </form>
             </div>
 
             <!-- CONTENIDO HTML DEL FOOTER DE LA PAGINA -->
